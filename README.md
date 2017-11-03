@@ -8,7 +8,9 @@ The Simulink library for this project is for controlling a Roomba iRobot via a w
 
 ### **init block**
 RoombaObstacleAvoidance/Figures/initilization.PNG
-![ScreenShot](RoombaObstacleAvoidance/Figures/initilization.PNG)
+![ScreenShot](https://raw.github.com/dannyasmaro/RoombaObstacleAvoidance//blob/master/Figures/initilization.PNG)
+
+/
 
 
 
