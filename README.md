@@ -1,10 +1,10 @@
 # RoombaObstacleAvoidance
 This is a project for Digital Control course at Temple University. Simulink is utilized to control a Roombra and navigate it through an obstacle course. 
 
-##**Intro**
+## **Intro**
 The Simulink library for this project is for controlling a Roomba iRobot via a wifi remote (roowifi). The RooWifi can be bought from(http://www.roowifi.com/products-page/embeddeds/roowifi-roomba-wifi-remote/). The RooWifi is set to the default IP Address (10.0.0.1).
 
-###**Instructions on Adding Roomba Libraries to Simulink library**
+### **Instructions on Adding Roomba Libraries to Simulink library**
 
 1. Download Roomba libraries and unzip the whole folders, including multiple .m files, to the MATLAB document folder
 2. Locate the "slblocks.m" file in each custom library folder
