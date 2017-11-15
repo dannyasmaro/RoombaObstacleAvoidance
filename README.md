@@ -1,7 +1,7 @@
 # RoombaObstacleAvoidance
 This is a project for Digital Control course by Dr. Li Bai at Temple University. Simulink is utilized to control a Roombra and navigate it through an obstacle course using Stateflow. This project involved using two parallel conditions (one for Obstacle avoidance & one for the temperature).
 
-## **Intro**
+## **Introduction**
 
 The library for the project is titled `DigiConLib.mdl` while the example model is titled `AsmaroProject2.slx.` The remaining files attached are those needed to run the model. It's important to save all the files in the same path. 
 
