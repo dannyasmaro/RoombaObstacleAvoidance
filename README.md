@@ -3,10 +3,15 @@ This is a project for Digital Control course by Dr. Li Bai at Temple University.
 
 ## **Intro**
 The Simulink library for this project is for controlling a Roomba iRobot via a wifi remote (roowifi). The RooWifi can be bought from(http://www.roowifi.com/products-page/embeddeds/roowifi-roomba-wifi-remote/). The RooWifi is set to the default IP Address (10.0.0.1).
+The library has the following blocks:
+
+<img width="530" alt="library blocks" src="https://user-images.githubusercontent.com/31410235/32812257-160d18f4-c972-11e7-9c3a-82db6ff44bd1.PNG">
 
 ## **Simulink Library Blocks**
 
+
 ### **init block**
+
 This is the main block that connects the Roomba to Simulink in order to read from the roomba (i.e. sensors) and write to it (i.e. set speed of wheels).
 The output of this block `Out1` should be connected to every `in1` input in the other blocks.
 
