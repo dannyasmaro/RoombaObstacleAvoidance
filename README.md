@@ -28,11 +28,6 @@ This block reads and displays the 6 IR sensors located in the front of the Roomb
 The irv block outputs a 1x6 vector for the sensors. Where the output is 1 or 0. Where 1 means an obstacle is detected and 0 means no obstacle is detected.
 For this project the `Out1` output is connected to the `IR` input in the `WheelV` block.
 
-### **Controller block**
-
-<img width="175" alt="wheel velocity" src="https://user-images.githubusercontent.com/31410235/32812402-c211c91a-c972-11e7-9f83-53e9f511cd4e.PNG">
-
-This block is connected to the init block through the in1 input, the irv block through the IR input, and finally the Temperature block through the Temp input. 
 
 ### **Temperature Block**
 
@@ -40,6 +35,15 @@ This block is connected to the init block through the in1 input, the irv block t
 
 This block ensures that the Roomba turns off, if the Rommba's Temperature increases past 85%. If the Temperature exceeds 85, the Roombs stops moving and turns off. 
 
+### **Controller block**
+
+<img width="175" alt="wheel velocity" src="https://user-images.githubusercontent.com/31410235/32812402-c211c91a-c972-11e7-9f83-53e9f511cd4e.PNG">
+
+This block is connected to the init block through the in1 input, the irv block through the IR input, and finally the Temperature block through the Temp input. 
+
+## **Controller Flow Chart Logic**
+The flow chart logic for the roomba is simple. It uses each sensor to determine whether to turn left, right, or straight. There are six logic blocks for each sensor for the roomba.
+<img width="624" alt="flow chart" src="https://user-images.githubusercontent.com/31410235/32866272-e4c312ee-ca34-11e7-8ba4-98a508f5d8da.PNG">
 
 ### **Instructions on Adding Roomba Libraries to Simulink library**
 
